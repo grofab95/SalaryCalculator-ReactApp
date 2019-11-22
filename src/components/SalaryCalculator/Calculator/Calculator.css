@@ -1,0 +1,50 @@
+.form {    
+    width: 400px;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #e4e4e4;
+    box-shadow: 1px 1px 10px black;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.label {
+    font-size: 24p;
+}
+
+.form-input {
+    height: 3px;
+    color: black;
+}
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    width: auto;
+}
+
+.error-message {
+    font-size: 20px;
+    color: rgb(255, 1, 1);
+}
+
+.spinner {
+    margin-top: 60px;
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    vertical-align: text-bottom;
+    border: 1.25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: spinner-border .75s linear infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: spinner-border;
+}
